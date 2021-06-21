@@ -13,7 +13,7 @@ Then access via http://localhost:8001/api/feature_flag
 
 # Heroku
 
-To deploy on Heroku, assuming you have an account and have installed the Heroku CLI:
+To deploy on Heroku, assuming you have an account and have installed the Heroku CLI, and have pushed your code to your repo.
 
 ```
 heroku login
