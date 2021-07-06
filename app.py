@@ -6,7 +6,7 @@ app = flask.Flask(__name__)
 @app.route('/api/feature_flags/', methods=['GET'])
 def feature_flags():
   feature_flags = {
-      "delete_logs_enabled": False
+      "delete_logs_enabled": True
   }
   return jsonify(feature_flags)
 
